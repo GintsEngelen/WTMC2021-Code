@@ -7,10 +7,18 @@ DAY_STR = [None, "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 PRINT_STEPS = 3000
 DATE_FORMAT_INTERNAL = '%d/%m/%Y %I:%M:%S %p'
 DATE_FORMAT_DATASET = '%d/%m/%Y %I:%M:%S %p'
+# The CICIDS 2017 dataset was generated in New Brunswick, Canada. Running the CICFlowMeter tool on this data automatically
+# converts all timestamps in the data from the timezone of New Brunswick, Canada, to the timezone of the host running
+# the CICFlowMeter tool. The TIME_DIFFERENCE attribute specifies the time difference between these two timezones.
+# specifically: TIME_DIFFERENCE = {CICFlowMeter host timezone} - {New Brunswick, Canada timezone}
 TIME_DIFFERENCE = timedelta(hours=5)
 
 INPUT_DIR = 'UnlabelledDataset/'
 OUTPUT_DIR = 'LabelledDataset/'
+
+# Some attack categories rely on transfer of a payload in order to be effective. When a malicious flow belongs to such a
+# category but doesn't contain a payload, setting this filter to True will label these flows as "X - Attempted" with "X"
+# the original attack class. Setting this filter to False will simply label the flow as part of the attack category.
 PAYLOAD_FILTER_ACTIVE = True
 
 
