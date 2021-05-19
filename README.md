@@ -1,12 +1,12 @@
 # Troubleshooting an Intrusion Detection Dataset: the CICIDS2017 Case Study
 
-This repository contains the code used for our [paper](https://downloads.distrinet-research.be/WTMC2021/Resources/Submission.pdf). 
+This repository contains the code used for our [paper](https://downloads.distrinet-research.be/WTMC2021/Resources/wtmc2021_Engelen_Troubleshooting.pdf). 
 The code performs the labelling and benchmarking for the [CICIDS 2017 dataset](https://www.unb.ca/cic/datasets/ids-2017.html)
  after it has been processed by [our modified version of the CICFlowMeter tool](https://github.com/GintsEngelen/CICFlowMeter). 
 
 Note that all of this is *research code*.
 
-If you use the code in this repository, please cite our paper:
+If you use the code in this repository, please cite our paper (*preliminary bibtex!*):
 
             @INPROCEEDINGS{Engelen2021Troubleshooting,
             author={Engelen, Gints and Rimmer, Vera and Joosen, Wouter},
