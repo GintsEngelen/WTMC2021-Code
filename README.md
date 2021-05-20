@@ -20,7 +20,7 @@ If you use the code in this repository, please cite our paper (*preliminary bibt
 
 An extended documentation of our paper can be found [here](https://downloads.distrinet-research.be/WTMC2021/).
 
-##How to use this repository
+## How to use this repository
 
 First, head over to the website of the [CICIDS 2017 dataset](https://www.unb.ca/cic/datasets/ids-2017.html) and download 
 the raw version of the dataset (PCAP file format). There are 5 files in total, one for each day. 
