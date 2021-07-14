@@ -6,17 +6,16 @@ The code performs the labelling and benchmarking for the [CICIDS 2017 dataset](h
 
 Note that all of this is *research code*.
 
-If you use the code in this repository, please cite our paper (*preliminary bibtex!*):
+If you use the code in this repository, please cite our paper:
 
-            @INPROCEEDINGS{Engelen2021Troubleshooting,
-            author={Engelen, Gints and Rimmer, Vera and Joosen, Wouter},
-            booktitle={2021 IEEE European Symposium on Security and Privacy Workshops (EuroS\&PW)},
+            @inproceedings{engelen2021troubleshooting,
             title={Troubleshooting an Intrusion Detection Dataset: the CICIDS2017 Case Study},
+            author={Engelen, Gints and Rimmer, Vera and Joosen, Wouter},
+            booktitle={2021 IEEE Security and Privacy Workshops (SPW)},
+            pages={7--12},
             year={2021},
-            volume={},
-            number={},
-            pages={},
-            doi={}}
+            organization={IEEE}
+            }
 
 An extended documentation of our paper can be found [here](https://downloads.distrinet-research.be/WTMC2021/).
 
